@@ -1,0 +1,70 @@
+#h1{
+color:black;
+animation: anim 4s infinite;
+
+
+}
+@keyframes anim{
+0%{color:red ;transform:scale(1.5);}
+25%{color:pink;transform:scale(0.3);}
+50%{color:blue;transform:scale(1.5);}
+75%{color:green;transform:scale(0.3;}
+100%{color:yellow;transform:scale(2.0)}
+}
+
+#ad a{
+color:black;
+}
+#ad a:hover{
+	color:orange
+}
+
+.admin{
+
+background-color:brown;
+color:white;
+margin-top: 16px;
+margin-bottom: 2px;
+margin-right: 2px;
+margin-left:10px;
+height: 140px;
+line-height:100px;
+font-family:Algerian;
+}
+
+#h{
+	margin-left: 20px;
+	font-size: 20px;
+}
+#h a{
+	color: black;
+}
+#h a:hover{
+	color:white;
+	font-family: Algerian;
+	}
+.dashboard{
+
+background-color:rgb(217, 102, 255);
+margin-right: 2px;
+margin-left:10px;
+height: 200px; 
+font-size:46px;
+font-family:Algerian;
+}
+.dashboard a{
+	color:	rgb(0, 0, 0);
+}
+.dashboard a:hover{
+
+background-color:white;
+
+
+}
+/*.back{
+font-size:616px;
+margin-right: 30px;
+margin-left:2px;
+height: 150px; 
+line-height:100px; 
+}*/
